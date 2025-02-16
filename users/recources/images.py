@@ -1,0 +1,62 @@
+PROFILE_IMAGE_URL_LIST = [
+    "https://cdn.dxomark.com/wp-content/uploads/medias/post-29213/050_AppleiPhoneXSMax_D\
+        xOMark_Selfie-e1557175226410.jpg",
+    "https://cdn.dxomark.com/wp-content/uploads/medias/post-46226/CloserDetailsOutdoor_AppleiPhone11.jpg",
+    "https://www.thesun.co.uk/wp-content/uploads/2021/03/NINTCHDBPICT000626846130.jpg",
+    "https://dt66ikht21gkc.cloudfront.net/img/selfie/502.jpg",
+    "https://repeller.com/wp-content/uploads/2017/01/Mirror-Selfie-How-To-Amelia-Man-Repeller_6876.jpg",
+    "https://www.postplanner.com/hubfs/selfie-ideas-to-look-good-2.jpg",
+    "https://www.gadgety.co.il/wp-content/themes/main/thumbs/2020/06/iphone-se-selfie-bokeh.jpg",
+    "https://upload.wikimedia.org/wikipedia/commons/0/0b/Przyk%C5%82ad_selfie.png",
+    "https://media-cdn.tripadvisor.com/media/photo-s/16/0f/4c/6e/home-selfie.jpg",
+    "https://pyxis.nymag.com/v1/imgs/657/bbd/3b7c2597b40bb6a6315014cfe2c83c98bd-118794057-608794096479920-716283783\
+        49143.rvertical.w330.jpg",
+    "https://st2.depositphotos.com/2931363/6263/i/600/depositphotos_62630621-stock-photo-young-man-making-selfie.jpg",
+    "https://m-cdn.phonearena.com/images/articles/366756-940/iPhone-12-Pro-IMG-0152.JPG.jpg",
+    "https://expertphotography.com/wp-content/uploads/2020/08/social-media-profile-photos-3.jpg",
+    "https://noticiasdatv.uol.com.br/media/uploads/artigos/lucas-selfie-lanca-podcast-reproducao-instagram.jpg",
+    "https://upload.wikimedia.org/wikipedia/he/c/c3/Yuval-binder-profile-pic.jpg"
+    "https://cdn.theatlantic.com/thumbor/Fm5Qhxa6iljS4KUoXj-SbMsCPrY=/0x7:5184x2923/720x405/medi\
+        a/img/mt/2018/12/RTX6HSPJ/original.jpg",
+    "../../static/img/profile1.jpg",
+    "../../static/img/profile2.jpg",
+    "../../static/img/profile3.jpg",
+    "../../static/img/profile4.jpg",
+    "../../static/img/profile5.jpg",
+    "../../static/img/profile6.jpg",
+    "../../static/img/profile7.jpg",
+    "../../static/img/profile8.jpg",
+    "../../static/img/profile9.jpg",
+]
+
+
+APARTMENT_IMAGE_URL_LIST = [
+    "https://cf.bstatic.com/images/hotel/max1024x768/197/197179243.jpg",
+    "https://madrich.cz/wp-content/uploads/2019/12/apartments_for_rent_prague.jpg",
+    "https://cf.bstatic.com/images/hotel/max1024x768/236/236410405.jpg",
+    "https://www.aveliving.com/AVE/media/Property_Images/Florham%20Park/hero/flor-apt-living-(2)-hero.jpg?ext=.jpg",
+    "https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/17/35/1735331_v10.jpeg",
+    "https://cf.bstatic.com/images/hotel/max1024x768/236/236410405.jpg",
+    "https://cdn.vox-cdn.com/thumbor/zVuv0s-NzoqRQef_zb91-X8sT88=/0x0:1800x1168/1200x800/filters:focal(733x429:102\
+        1x717)/cdn.vox-cdn.com/uploads/chorus_image/image/63048549/logan_apartments.6.jpg",
+    "https://cf.bstatic.com/images/hotel/max1024x768/179/179144245.jpg",
+    "https://in.bgu.ac.il/logistics/DocLib/Pages/apartments/27-07-2017_008.jpg",
+    "https://wp-tid.zillowstatic.com/streeteasy/2/nyc-apartments-for-500k-cobble-hill-c94fca.jpeg",
+    "https://cf.bstatic.com/images/hotel/max1024x768/183/183983982.jpg",
+    "https://hiskes-holiday-apartments.co.il/wp-content/uploads/2020/05/20200509_092857-1024x576.jpg",
+    "https://renomahotel.com/he/wp-content/uploads/sites/3/2021/04/luxury_apartments_0000_0-29.jpg",
+    "https://citylifeapartments.com/wp-content/uploads/2019/11/AYrURI0s-COPY1-HOME.jpg",
+    "https://pics.yad2.co.il/Pics/2019/10/20191031111444.jpg",
+    "https://www.mo2properties.com/wp-content/uploads/2018/04/image-2018-06-25-1-2-749x460.jpg",
+    "https://a.otcdn.com/imglib/hotelfotos/8/362/apartments-in-ha-kerem-tel-aviv-035-20200901141701.jpg",
+    "https://cf.bstatic.com/images/hotel/max1024x768/118/118516857.jpg",
+    "../../static/img/apartment1.jpg",
+    "../../static/img/apartment2.jpg",
+    "../../static/img/apartment3.jpg",
+    "../../static/img/apartment4.jpg",
+    "../../static/img/apartment5.jpg",
+    "../../static/img/apartment6.jpg",
+    "../../static/img/apartment7.jpg",
+    "../../static/img/apartment8.jpg",
+    "../../static/img/apartment9.jpg",
+]

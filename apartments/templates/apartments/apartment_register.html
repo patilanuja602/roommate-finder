@@ -1,0 +1,29 @@
+{% extends "main/base_template.html" %}
+{% load crispy_forms_tags %}
+
+{% block title %}Roo.me - Register as owner{% endblock %}
+
+{% block navbar %}{% endblock %}
+
+{% block sidebar %}
+{% endblock %}
+
+{% block content %}
+    <div class="card">
+        <div class="card-body">
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    <legend class="border-bottom mb-2">User information</legend>
+                    {{ uform|crispy }}
+                    <legend class="border-bottom mb-2 mt-4">Pick your hobbies</legend>
+                    {{ hform|crispy }}
+                    <legend class="border-bottom mb-2 mt-4">Tell us about your apartment</legend>
+                    {{ aform|crispy }}
+                    {{ qform|crispy }}
+                    <button class="btn btn-primary mt-3" type="submit">Register</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+{% endblock %}

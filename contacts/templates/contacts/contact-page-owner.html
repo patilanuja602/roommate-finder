@@ -1,0 +1,38 @@
+{% extends "main/base_template.html" %}
+
+{% block title %}Roo.me - Contacts{% endblock %}
+
+{% block content %}
+
+<h1><u>Pending connections: </u></h1>
+<div class="list-group">
+    {% for connection in pending_connections %}
+    <div href="#" class="list-group-item list-group-item-action" aria-current="true">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{connection.seeker.base_user.first_name}} {{connection.seeker.base_user.last_name}}</h5>
+        <small>{{connection.date_created}}</small>
+      </div>
+      <p class="mb-1">{{connection.seeker.about}}</p>
+      <a href="/contacts/approve/{{connection.pk}}" style="background-color: rgb(89, 146, 89);" class="btn btn-info">Approve!</a>
+      <a href="/contacts/reject/{{connection.pk}}" class="btn btn-primary">Decline!</a>
+      <p><small><i>You can approve or decline this connection</i></small></p>
+    </div>
+    {% endfor %}
+</div>
+
+<h1><u>Active connections: </u></h1>
+<div class="list-group">
+    {% for connection in approved_connections %}
+    <div href="#" class="list-group-item list-group-item-action" aria-current="true">
+      <div class="d-flex w-100 justify-content-between">
+        <h5 class="mb-1">{{connection.seeker.base_user.first_name}} {{connection.seeker.base_user.last_name}}</h5>
+        <small>{{connection.date_created}}</small>
+      </div>
+      <p class="mb-1">{{connection.seeker.about}}</p>
+      <a href="/contacts/reject/{{connection.pk}}" style="background-color: rgb(179, 62, 62);" class="btn btn-info">Remove!</a>
+      <a href="/contacts/chat/{{connection.pk}}" class="btn btn-info">Chat!</a>
+      <p><small><i>This connection is in progress</i></small></p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
